@@ -4,6 +4,6 @@ const UserController = require("./app/controllers/UserController");
 
 const routes = new Router();
 
-routes.get("/login", UserController.index);
+routes.get("/login", UserController.loginGet);
 
 module.exports = routes;

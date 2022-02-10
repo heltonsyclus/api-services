@@ -1,8 +1,7 @@
 const serviceLogin = require("../json/serviceLogin.json");
 class UserController {
-  index(req, res) {
+  loginGet(req, res) {
     return res.status(200).json({
-      error: false,
       serviceLogin,
     });
   }
